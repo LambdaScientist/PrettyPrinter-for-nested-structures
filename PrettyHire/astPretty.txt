@@ -1,0 +1,2924 @@
+JoyFile
+[ FactorCycle
+  [ FactorIntegerConstant
+    ( IntegerConstant"2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"setecho"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"C0"
+          )
+          ( Literal1
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"pop"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Csucc"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"dup"
+                )
+                Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"i"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"dip"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Peano"
+          )
+          ( Literal1
+            [ FactorIntegerConstant
+              ( IntegerConstant"0"
+              )
+              Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"succ"
+                )
+              ]
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C0"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C0"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Csucc"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Csucc"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Csucc"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C0"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Csucc"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Csucc"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Csucc"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"C1"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"C0"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"Csucc"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"C2"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"C1"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"Csucc"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"C3"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"C2"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"Csucc"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C0"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C1"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C2"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C3"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Doublings"
+          )
+          ( Literal1
+            [ FactorIntegerConstant
+              ( IntegerConstant"1"
+              )
+              Factor2
+              [ FactorIntegerConstant
+                ( IntegerConstant"2"
+                )
+                FactorAtomicSymbol
+                ( AtomicSymbol"*"
+                )
+              ]
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Lists"
+          )
+          ( Literal1
+            [ Factor2
+              [
+              ]
+              Factor2
+              [ Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"i"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"swoncat"
+                )
+              ]
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Doublings"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C0"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Doublings"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C1"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Doublings"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C2"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Doublings"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C3"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Lists"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C0"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Lists"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C1"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Lists"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C2"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Lists"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"C3"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cadd"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ Factor2
+                  [ FactorAtomicSymbol
+                    ( AtomicSymbol"Csucc"
+                    )
+                  ]
+                  FactorAtomicSymbol
+                  ( AtomicSymbol"cons"
+                  )
+                ]
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cmul"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ Factor2
+                  [ FactorAtomicSymbol
+                    ( AtomicSymbol"C0"
+                    )
+                  ]
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"dip"
+                )
+                Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"Cadd"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"cons"
+                )
+                Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"cons"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"cons"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cpow"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ Factor2
+                  [ FactorAtomicSymbol
+                    ( AtomicSymbol"C1"
+                    )
+                  ]
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"dip"
+                )
+                Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"Cmul"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"cons"
+                )
+                Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"cons"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"cons"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cadd"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cmul"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cpow"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Doublings"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cadd"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Doublings"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cmul"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Doublings"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cpow"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ Factor2
+        [ Factor2
+          [ Factor2
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"C3"
+              )
+            ]
+            FactorAtomicSymbol
+            ( AtomicSymbol"Csucc"
+            )
+          ]
+          Factor2
+          [ FactorAtomicSymbol
+            ( AtomicSymbol"C2"
+            )
+          ]
+          FactorAtomicSymbol
+          ( AtomicSymbol"Cadd"
+          )
+        ]
+        Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C3"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Cmul"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Csucc"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cadd"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ Factor2
+        [ Factor2
+          [ Factor2
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"C3"
+              )
+            ]
+            FactorAtomicSymbol
+            ( AtomicSymbol"Csucc"
+            )
+          ]
+          Factor2
+          [ FactorAtomicSymbol
+            ( AtomicSymbol"C2"
+            )
+          ]
+          FactorAtomicSymbol
+          ( AtomicSymbol"Cadd"
+          )
+        ]
+        Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C3"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Cmul"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Csucc"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cadd"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"succ"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"+"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"*"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"succ"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"+"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"="
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ Factor2
+        [ Factor2
+          [ FactorAtomicSymbol
+            ( AtomicSymbol"C2"
+            )
+          ]
+          Factor2
+          [ FactorAtomicSymbol
+            ( AtomicSymbol"C3"
+            )
+          ]
+          FactorAtomicSymbol
+          ( AtomicSymbol"Cmul"
+          )
+        ]
+        Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C2"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Cpow"
+        )
+      ]
+      Factor2
+      [ Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C2"
+          )
+        ]
+        Factor2
+        [ Factor2
+          [ FactorAtomicSymbol
+            ( AtomicSymbol"C1"
+            )
+          ]
+          FactorAtomicSymbol
+          ( AtomicSymbol"Csucc"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Cmul"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cadd"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cadd"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Q0"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"pop"
+                )
+              ]
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Qsucc"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"dup"
+                  )
+                  Factor2
+                  [ FactorAtomicSymbol
+                    ( AtomicSymbol"i"
+                    )
+                  ]
+                  FactorAtomicSymbol
+                  ( AtomicSymbol"dip"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"dip"
+                )
+                FactorAtomicSymbol
+                ( AtomicSymbol"i"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"cons"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q0"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q0"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qsucc"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q0"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qsucc"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qsucc"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Q1"
+          )
+          ( Literal1
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"Q0"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"Qsucc"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Q2"
+          )
+          ( Literal1
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"Q1"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"Qsucc"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Q3"
+          )
+          ( Literal1
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"Q2"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"Qsucc"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q0"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q1"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Q0"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Q1"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Qadd"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ Factor2
+                  [ FactorAtomicSymbol
+                    ( AtomicSymbol"Qsucc"
+                    )
+                    FactorAtomicSymbol
+                    ( AtomicSymbol"i"
+                    )
+                  ]
+                  FactorAtomicSymbol
+                  ( AtomicSymbol"cons"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"swap"
+                )
+                FactorAtomicSymbol
+                ( AtomicSymbol"i"
+                )
+                FactorAtomicSymbol
+                ( AtomicSymbol"i"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"cons"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"cons"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Qmul"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ Factor2
+                  [ Factor2
+                    [ FactorAtomicSymbol
+                      ( AtomicSymbol"Q0"
+                      )
+                      FactorAtomicSymbol
+                      ( AtomicSymbol"i"
+                      )
+                    ]
+                  ]
+                  FactorAtomicSymbol
+                  ( AtomicSymbol"dip"
+                  )
+                  Factor2
+                  [ FactorAtomicSymbol
+                    ( AtomicSymbol"Qadd"
+                    )
+                    FactorAtomicSymbol
+                    ( AtomicSymbol"i"
+                    )
+                  ]
+                  FactorAtomicSymbol
+                  ( AtomicSymbol"cons"
+                  )
+                  Factor2
+                  [ FactorAtomicSymbol
+                    ( AtomicSymbol"cons"
+                    )
+                  ]
+                  FactorAtomicSymbol
+                  ( AtomicSymbol"cons"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"dip"
+                )
+                FactorAtomicSymbol
+                ( AtomicSymbol"i"
+                )
+                FactorAtomicSymbol
+                ( AtomicSymbol"i"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"cons"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"cons"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Qpow"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ Factor2
+                  [ Factor2
+                    [ FactorAtomicSymbol
+                      ( AtomicSymbol"Q1"
+                      )
+                      FactorAtomicSymbol
+                      ( AtomicSymbol"i"
+                      )
+                    ]
+                  ]
+                  FactorAtomicSymbol
+                  ( AtomicSymbol"dip"
+                  )
+                  Factor2
+                  [ FactorAtomicSymbol
+                    ( AtomicSymbol"Qmul"
+                    )
+                    FactorAtomicSymbol
+                    ( AtomicSymbol"i"
+                    )
+                  ]
+                  FactorAtomicSymbol
+                  ( AtomicSymbol"cons"
+                  )
+                  Factor2
+                  [ FactorAtomicSymbol
+                    ( AtomicSymbol"cons"
+                    )
+                  ]
+                  FactorAtomicSymbol
+                  ( AtomicSymbol"cons"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"dip"
+                )
+                FactorAtomicSymbol
+                ( AtomicSymbol"i"
+                )
+                FactorAtomicSymbol
+                ( AtomicSymbol"i"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"cons"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"cons"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qadd"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qmul"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qpow"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qadd"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qmul"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qpow"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qsucc"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qadd"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qmul"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qsucc"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qadd"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qsucc"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qadd"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qmul"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qsucc"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Q2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Qadd"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"i"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"succ"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"+"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"*"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"succ"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"+"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"="
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Ctrue"
+          )
+          ( Literal1
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"pop"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cfalse"
+          )
+          ( Literal1
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"popd"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Boole"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorString"Yes
+                yes"
+              ]
+              Factor2
+              [ FactorString"No
+                no"
+              ]
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Comparison"
+          )
+          ( Literal1
+            [ FactorIntegerConstant
+              ( IntegerConstant"2"
+              )
+              FactorIntegerConstant
+              ( IntegerConstant"3"
+              )
+              Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"<"
+                )
+              ]
+              Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol">"
+                )
+              ]
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ctrue"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cfalse"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Comparison"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ctrue"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Comparison"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cfalse"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cnot"
+          )
+          ( Literal1
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"swapd"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cnot"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cnot"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Comparison"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"Ctrue"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cnot"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cnot"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Comparison"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"Cfalse"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cnot"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cnot"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cor"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"Ctrue"
+                  )
+                ]
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dipd"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cand"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"Cfalse"
+                  )
+                ]
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cor"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cor"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cor"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cor"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cand"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cand"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cand"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cand"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Ceq0"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"Ctrue"
+                  )
+                ]
+                Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"pop"
+                  )
+                  Factor2
+                  [ FactorAtomicSymbol
+                    ( AtomicSymbol"Cfalse"
+                    )
+                  ]
+                ]
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C0"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ceq0"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C1"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ceq0"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ceq0"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ceq0"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C2"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Csucc"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ceq0"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cor"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Boole"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ceq0"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C2"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Csucc"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ceq0"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cand"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cifte"
+          )
+          ( Literal1
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"rolldown"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ceq0"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cifte"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C1"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ceq0"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cifte"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C0"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Ceq0"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cnot"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cifte"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C1"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Ceq0"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cnot"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cifte"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"Ctrue"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C1"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cifte"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"Ctrue"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C2"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C3"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cifte"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cifte"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Ctrue"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"Cfalse"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C1"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cifte"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"Cfalse"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C2"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C3"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cifte"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cifte"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"Ctrue"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C1"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cifte"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"Ctrue"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C2"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C3"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cifte"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cifte"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"Cfalse"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"Cfalse"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C1"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cifte"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"Cfalse"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C2"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C3"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Cifte"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cifte"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Ccons"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"i"
+                )
+              ]
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Ccar"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"Ctrue"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"swap"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Ccdr"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"Cfalse"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"swap"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C0"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C1"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccons"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccar"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C0"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C1"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccons"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccdr"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C1"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccons"
+      )
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccar"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C2"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C3"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccons"
+      )
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccar"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccons"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccar"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C1"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccons"
+      )
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccdr"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C2"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C3"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccons"
+      )
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccdr"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccons"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccar"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C1"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccons"
+      )
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccar"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C2"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C3"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccons"
+      )
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccar"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccons"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccdr"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C0"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C1"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccons"
+      )
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccdr"
+      )
+    ]
+    Factor2
+    [ Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C2"
+        )
+      ]
+      Factor2
+      [ FactorAtomicSymbol
+        ( AtomicSymbol"C3"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccons"
+      )
+      FactorAtomicSymbol
+      ( AtomicSymbol"Ccdr"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccons"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"Ccdr"
+    )
+  ]
+  PeriodEnd
+  DefCycle
+  ( CompoundDefinitionNoModuleNoPrivate
+    ( PublicPublicEQ_DEFINE
+      [ SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Csucc"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"dup"
+                )
+                FactorAtomicSymbol
+                ( AtomicSymbol"dip"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cadd"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"sip"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"sip"
+          )
+          ( Literal1
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"dupd"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cmul"
+          )
+          ( Literal1
+            [ Factor2
+              [ FactorAtomicSymbol
+                ( AtomicSymbol"cons"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+        SimpleDef
+        ( SimpleDefinition
+          ( AtomicSymbol"Cpow"
+          )
+          ( Literal1
+            [ Factor2
+              [ Factor2
+                [ FactorAtomicSymbol
+                  ( AtomicSymbol"cons"
+                  )
+                ]
+                FactorAtomicSymbol
+                ( AtomicSymbol"cons"
+                )
+              ]
+              FactorAtomicSymbol
+              ( AtomicSymbol"dip"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+              FactorAtomicSymbol
+              ( AtomicSymbol"i"
+              )
+            ]
+          )
+        )
+      ]
+    )
+    PeriodEnd
+  )
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cadd"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cmul"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cpow"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Doublings"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cadd"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Doublings"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cmul"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Doublings"
+    )
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C3"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cpow"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ Factor2
+        [ Factor2
+          [ Factor2
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"C3"
+              )
+            ]
+            FactorAtomicSymbol
+            ( AtomicSymbol"Csucc"
+            )
+          ]
+          Factor2
+          [ FactorAtomicSymbol
+            ( AtomicSymbol"C2"
+            )
+          ]
+          FactorAtomicSymbol
+          ( AtomicSymbol"Cadd"
+          )
+        ]
+        Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C3"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Cmul"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Csucc"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cadd"
+    )
+  ]
+  PeriodEnd
+  FactorCycle
+  [ FactorAtomicSymbol
+    ( AtomicSymbol"Peano"
+    )
+    Factor2
+    [ Factor2
+      [ Factor2
+        [ Factor2
+          [ Factor2
+            [ FactorAtomicSymbol
+              ( AtomicSymbol"C3"
+              )
+            ]
+            FactorAtomicSymbol
+            ( AtomicSymbol"Csucc"
+            )
+          ]
+          Factor2
+          [ FactorAtomicSymbol
+            ( AtomicSymbol"C2"
+            )
+          ]
+          FactorAtomicSymbol
+          ( AtomicSymbol"Cadd"
+          )
+        ]
+        Factor2
+        [ FactorAtomicSymbol
+          ( AtomicSymbol"C3"
+          )
+        ]
+        FactorAtomicSymbol
+        ( AtomicSymbol"Cmul"
+        )
+      ]
+      FactorAtomicSymbol
+      ( AtomicSymbol"Csucc"
+      )
+    ]
+    Factor2
+    [ FactorAtomicSymbol
+      ( AtomicSymbol"C2"
+      )
+    ]
+    FactorAtomicSymbol
+    ( AtomicSymbol"Cadd"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"succ"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"+"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"3"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"*"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"succ"
+    )
+    FactorIntegerConstant
+    ( IntegerConstant"2"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"+"
+    )
+    FactorAtomicSymbol
+    ( AtomicSymbol"="
+    )
+  ]
+  PeriodEnd
+]
